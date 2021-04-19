@@ -1,5 +1,12 @@
 # Giteo
 
+[![GitHub version](https://badge.fury.io/gh/BoxingOctopus%2Fgiteo.svg)](https://badge.fury.io/gh/BoxingOctopus%2Fgiteo)
+[![PyPI version](https://badge.fury.io/py/giteo.svg)](https://badge.fury.io/py/giteo)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/giteo)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/giteo)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/giteo)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/tuxotaku/giteo)
+
 ## Table of Contents
 
 - [About](#about)
