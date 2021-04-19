@@ -7,6 +7,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/giteo)
 ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/tuxotaku/giteo)
 ![PyPI - License](https://img.shields.io/pypi/l/giteo)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/tuxotaku/giteo)
 
 ## Table of Contents
 

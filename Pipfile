@@ -6,9 +6,14 @@ name       = "pypi"
 [packages]
 click    = "7.1.2"
 requests = "2.25.1"
+myst-parser = "*"
 
 [dev-packages]
 twine    = "*"
+sphinx = "*"
+pytest = "*"
+requests-mock = "*"
+m2r = "*"
 
 [requires]
 python_version = "3.9"
