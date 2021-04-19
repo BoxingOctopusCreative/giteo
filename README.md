@@ -8,6 +8,7 @@
 ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/tuxotaku/giteo)
 ![PyPI - License](https://img.shields.io/pypi/l/giteo)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/tuxotaku/giteo)
+[![Documentation Status](https://readthedocs.org/projects/giteo/badge/?version=latest)](https://giteo.readthedocs.io/en/latest/?badge=latest)
 
 ## Table of Contents
 
