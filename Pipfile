@@ -1,14 +1,14 @@
 [[source]]
-url = "https://pypi.org/simple"
+url        = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
+name       = "pypi"
 
 [packages]
-
-click = "7.1.2"
+click    = "7.1.2"
 requests = "2.25.1"
 
 [dev-packages]
+twine    = "*"
 
 [requires]
 python_version = "3.9"

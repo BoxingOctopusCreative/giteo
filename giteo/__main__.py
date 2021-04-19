@@ -21,7 +21,10 @@ def print_help(ctx, value):
 def giteo(ctx, url=None, code=None):
 
     r = requests.post(f"https://git.io?url={url}&code={code}")
-    print(r.text)
+    if r.status_code == 200:
+        print(r.text)
+    else:
+        raise Exception("Bad Request")
 
 if __name__ == "__main__":
     giteo()
