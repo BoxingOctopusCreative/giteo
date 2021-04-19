@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Giteo
 
-You can use the [editor on GitHub](https://github.com/BoxingOctopus/giteo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![GitHub version](https://badge.fury.io/gh/BoxingOctopus%2Fgiteo.svg)](https://badge.fury.io/gh/BoxingOctopus%2Fgiteo)
+[![PyPI version](https://badge.fury.io/py/giteo.svg)](https://badge.fury.io/py/giteo)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/giteo)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/giteo)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/giteo)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/tuxotaku/giteo)
+![PyPI - License](https://img.shields.io/pypi/l/giteo)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Table of Contents
 
-### Markdown
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Contributing](../CONTRIBUTING.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## About <a name = "about"></a>
 
-```markdown
-Syntax highlighted code block
+Giteo is a CLI-based URL shortener written in Python which uses GitHub's [git.io](https://git.io) URL shortening service.
 
-# Header 1
-## Header 2
-### Header 3
+## Getting Started <a name = "getting_started"></a>
 
-- Bulleted
-- List
+These instructions will get you a copy of the project up and running on your local machine.
 
-1. Numbered
-2. List
+### Prerequisites
 
-**Bold** and _Italic_ and `Code` text
+- Python 3.7+
+- Pipenv
+- Docker (Optional)
 
-[Link](url) and ![Image](src)
-```
+### Development Setup
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1. Fork this repo
+2. Set up your Pipenv environment (`pipenv install`)
+3. Set up your Docker environment (`docker build -t giteo:latest .`) (Optional)
 
-### Jekyll Themes
+### Installing
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BoxingOctopus/giteo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Bare Metal Install
 
-### Support or Contact
+`pip install giteo`
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### Docker Install
+
+`docker pull TuxOtaku/giteo:latest`
+
+## Usage <a name = "usage"></a>
+
+### Bare Metal
+
+`giteo --url <url_to_be_shortened> --code <shortened_url_suffix>`
+
+### Docker
+`docker run --rm TuxOtaku/giteo:latest --url <url_to_be_shortened> --code <shortened_url_suffix>`
