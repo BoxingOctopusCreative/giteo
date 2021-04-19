@@ -1,5 +1,8 @@
 FROM python:alpine3.9
 
+RUN apk update
+RUN apk upgrade
+
 RUN mkdir -p /src
 COPY . /src
 WORKDIR /src
