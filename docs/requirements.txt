@@ -14,7 +14,7 @@ iniconfig==1.1.1
 Jinja2==2.11.3
 keyring==23.0.1
 m2r==0.2.1
-markdown-it-py==0.6.2
+markdown-it-py==2.2.0
 MarkupSafe==1.1.1
 mdit-py-plugins==0.2.6
 mistune==0.8.4
